@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>EcoVoz - SENA te escucha</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>EcoVoz</h1>
+<p>Envía tu mensaje anónimo</p>
+
+<form id="pqrsForm">
+
+<select id="categoria">
+
+<option value="pregunta">Pregunta</option>
+<option value="reclamo">Reclamo</option>
+<option value="sugerencia">Sugerencia</option>
+
+</select>
+
+<textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
